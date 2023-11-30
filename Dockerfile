@@ -21,5 +21,4 @@ RUN apt install -y docker.io
 EXPOSE 7000
 
 # start command
-CMD ["bash", "sleep infinity"]
-
+CMD ["sleep", "infinity"]
